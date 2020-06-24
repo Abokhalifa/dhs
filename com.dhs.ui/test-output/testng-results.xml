@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Regression_Suite" duration-ms="39398" started-at="2020-06-24T00:34:42Z" finished-at="2020-06-24T00:35:22Z">
+    <groups>
+    </groups>
+    <test name="Happy_Scenario_Chrome" duration-ms="39398" started-at="2020-06-24T00:34:42Z" finished-at="2020-06-24T00:35:22Z">
+      <class name="com.dhs.ui.tests.FunctionalTests">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.dhs.ui.tests.FunctionalTests@4501b7af]" name="setup" is-config="true" duration-ms="7011" started-at="2020-06-24T02:34:42Z" finished-at="2020-06-24T02:34:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginDHS(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.dhs.ui.tests.FunctionalTests@4501b7af]" name="loginDHS" is-config="true" duration-ms="12086" started-at="2020-06-24T02:34:49Z" finished-at="2020-06-24T02:35:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://platform-test.dhsarabia.com.sa/Eligiblity]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[AboKalifa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[A_123456a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDHS -->
+        <test-method status="PASS" signature="submitSMV_PSV()[pri:0, instance:com.dhs.ui.tests.FunctionalTests@4501b7af]" name="submitSMV_PSV" duration-ms="14017" started-at="2020-06-24T02:35:01Z" finished-at="2020-06-24T02:35:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitSMV_PSV -->
+        <test-method status="PASS" signature="validateSpecialtyValue()[pri:0, instance:com.dhs.ui.tests.FunctionalTests@4501b7af]" name="validateSpecialtyValue" duration-ms="5041" started-at="2020-06-24T02:35:15Z" finished-at="2020-06-24T02:35:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSpecialtyValue -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.dhs.ui.tests.FunctionalTests@4501b7af]" name="tearDown" is-config="true" duration-ms="1229" started-at="2020-06-24T02:35:20Z" finished-at="2020-06-24T02:35:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.dhs.ui.tests.FunctionalTests -->
+    </test> <!-- Happy_Scenario_Chrome -->
+  </suite> <!-- Regression_Suite -->
+</testng-results>

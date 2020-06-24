@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression_Suite" allow-return-values="true" verbose="1"> <!-- parallel="tests"  thread-count="2"-->
+ 
+   <test name="Happy_Scenario_Chrome">
+       <parameter name="browser"  value="chrome" />
+       <parameter name="username" value="AboKalifa"/>
+       <parameter name="password" value="A_123456a"/>
+       <parameter name="otp" value="0000"/>
+       
+       <parameter name="base_URL" value="https://platform-test.dhsarabia.com.sa/Eligiblity"/>
+       <parameter name="pauseUnified" value="3"/>
+             
+       
+       <classes>
+            <class name="com.dhs.ui.tests.FunctionalTests">
+              <methods>
+                 <include name="submitSMV_PSV" />
+                 <include name="validateSpecialtyValue" />
+              </methods>
+            </class>
+        </classes>
+    </test>
+	
+</suite>
